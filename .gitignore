@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Corpus COLIEE (dados grandes; obter à parte)
+CorpusColiee/
+
+# Artefatos gerados pelo pipeline
+lexical_bm25/artifacts/
+regex_extraction/indexes/
+regex_extraction/results/
+hybrid_fusion/results/
